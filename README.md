@@ -1,4 +1,4 @@
-# Healthcare Patient Analytics Dashboard
+# Healthcare Patient Analytics 
 ![Dashboard](Dashboard.png "Healthcare Patient Analytics Dashboard")
 
 ## Project Overview
@@ -20,6 +20,12 @@ This project analyzes hospital patient data to track key healthcare metrics and 
 ## Tools Used
 - Power BI
 - Excel
+## Files
+* Dataset: [healthcare_patient_analytics_Dataset.xlsx](healthcare_patient_analytics_Dataset.xlsx)
+* Power BI File: [Healthcare_analytics.pbix](Healthcare_analytics.pbix)
+
+## Dashboard Preview
+![Dashboard](Dashboard.png)
 
 ## Key Insights
 - Identified most common diseases
