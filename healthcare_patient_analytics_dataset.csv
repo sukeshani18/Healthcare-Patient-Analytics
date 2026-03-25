@@ -1,0 +1,801 @@
+Patient_ID,Age,Gender,Disease,Department,Admission_Date,Discharge_Date,Stay_Days,Treatment_Cost,Readmitted
+P1000,52,Male,Arthritis,Orthopedics,2024-10-16,2024-10-23,7,15755,No
+P1001,15,Male,Diabetes,Endocrinology,2023-04-25,2023-04-26,1,10235,No
+P1002,72,Male,Kidney Disease,Nephrology,2023-01-26,2023-01-31,5,24049,Yes
+P1003,61,Female,Asthma,Pulmonology,2023-10-09,2023-10-15,6,13971,No
+P1004,21,Female,Kidney Disease,Nephrology,2023-09-08,2023-09-12,4,22662,No
+P1005,83,Female,Flu,General Medicine,2023-08-17,2023-08-19,2,4489,No
+P1006,87,Male,Diabetes,Endocrinology,2023-05-23,2023-05-27,4,13994,Yes
+P1007,75,Female,Arthritis,Orthopedics,2023-04-15,2023-04-16,1,14737,No
+P1008,75,Male,Flu,General Medicine,2024-11-23,2024-11-30,7,5906,No
+P1009,88,Female,COVID-19,Infectious Disease,2024-07-12,2024-07-14,2,24535,No
+P1010,24,Male,COVID-19,Infectious Disease,2023-03-31,2023-04-02,2,20116,No
+P1011,3,Male,Kidney Disease,Nephrology,2024-08-27,2024-09-05,9,22788,No
+P1012,22,Male,Migraine,Neurology,2024-03-08,2024-03-13,5,7290,No
+P1013,53,Female,Hypertension,Cardiology,2023-02-02,2023-02-04,2,12883,No
+P1014,2,Female,Migraine,Neurology,2023-01-31,2023-02-11,11,10744,No
+P1015,88,Female,Pneumonia,Pulmonology,2023-04-06,2023-04-15,9,16263,No
+P1016,30,Female,Migraine,Neurology,2023-08-12,2023-08-21,9,9553,No
+P1017,38,Male,Pneumonia,Pulmonology,2023-08-27,2023-08-28,1,14083,No
+P1018,2,Female,Pneumonia,Pulmonology,2024-06-01,2024-06-12,11,18232,No
+P1019,64,Female,Arthritis,Orthopedics,2024-09-08,2024-09-11,3,14565,No
+P1020,60,Male,Diabetes,Endocrinology,2023-01-28,2023-02-01,4,10701,No
+P1021,21,Male,Arthritis,Orthopedics,2024-07-28,2024-08-04,7,14977,No
+P1022,33,Male,Pneumonia,Pulmonology,2023-07-23,2023-08-02,10,19898,No
+P1023,76,Female,Flu,General Medicine,2024-10-27,2024-10-31,4,6329,No
+P1024,58,Male,COVID-19,Infectious Disease,2024-07-12,2024-07-14,2,22002,No
+P1025,22,Male,Pneumonia,Pulmonology,2024-03-05,2024-03-12,7,18548,No
+P1026,89,Male,Arthritis,Orthopedics,2023-08-14,2023-08-20,6,19210,Yes
+P1027,49,Female,Flu,General Medicine,2024-04-04,2024-04-07,3,4968,No
+P1028,59,Male,Arthritis,Orthopedics,2024-08-26,2024-09-01,6,18657,Yes
+P1029,42,Female,Migraine,Neurology,2023-10-12,2023-10-23,11,8900,No
+P1030,60,Female,Asthma,Pulmonology,2023-01-07,2023-01-13,6,12291,Yes
+P1031,80,Male,Kidney Disease,Nephrology,2023-06-13,2023-06-18,5,25831,No
+P1032,15,Male,Hypertension,Cardiology,2024-03-08,2024-03-12,4,12020,Yes
+P1033,62,Female,Arthritis,Orthopedics,2023-12-15,2023-12-25,10,16671,No
+P1034,62,Male,Hypertension,Cardiology,2023-10-12,2023-10-13,1,14495,No
+P1035,47,Male,Heart Disease,Cardiology,2023-06-09,2023-06-19,10,23141,Yes
+P1036,62,Female,Arthritis,Orthopedics,2023-08-09,2023-08-15,6,13762,No
+P1037,51,Female,Asthma,Pulmonology,2023-12-11,2023-12-13,2,9410,Yes
+P1038,55,Male,Hypertension,Cardiology,2023-04-15,2023-04-18,3,9815,Yes
+P1039,64,Female,Pneumonia,Pulmonology,2023-04-05,2023-04-13,8,17312,No
+P1040,3,Male,Arthritis,Orthopedics,2024-01-25,2024-02-04,10,18667,No
+P1041,51,Male,Diabetes,Endocrinology,2023-04-10,2023-04-16,6,11993,No
+P1042,7,Male,Kidney Disease,Nephrology,2024-01-03,2024-01-06,3,22508,No
+P1043,21,Female,Asthma,Pulmonology,2023-12-19,2023-12-26,7,12439,No
+P1044,73,Male,Hypertension,Cardiology,2024-09-10,2024-09-14,4,12764,Yes
+P1045,39,Male,Asthma,Pulmonology,2023-09-28,2023-10-07,9,10023,No
+P1046,18,Male,Flu,General Medicine,2023-02-14,2023-02-19,5,6876,No
+P1047,4,Female,Kidney Disease,Nephrology,2024-04-15,2024-04-18,3,24534,No
+P1048,89,Female,Pneumonia,Pulmonology,2024-07-03,2024-07-05,2,18349,No
+P1049,60,Female,Arthritis,Orthopedics,2023-05-08,2023-05-19,11,15816,No
+P1050,14,Female,Arthritis,Orthopedics,2024-01-23,2024-01-25,2,16485,No
+P1051,9,Female,Arthritis,Orthopedics,2023-03-22,2023-03-25,3,19110,No
+P1052,53,Male,Kidney Disease,Nephrology,2024-07-19,2024-07-21,2,24508,No
+P1053,2,Female,Diabetes,Endocrinology,2023-10-28,2023-11-01,4,12709,No
+P1054,84,Female,Heart Disease,Cardiology,2024-10-05,2024-10-07,2,25882,No
+P1055,60,Female,COVID-19,Infectious Disease,2024-09-25,2024-10-05,10,23757,Yes
+P1056,71,Male,Migraine,Neurology,2024-01-06,2024-01-15,9,8717,Yes
+P1057,44,Female,Hypertension,Cardiology,2024-08-14,2024-08-16,2,10219,No
+P1058,8,Female,Diabetes,Endocrinology,2023-07-16,2023-07-25,9,12511,No
+P1059,47,Male,Pneumonia,Pulmonology,2023-03-13,2023-03-19,6,16059,No
+P1060,35,Female,Hypertension,Cardiology,2023-02-16,2023-02-17,1,9888,No
+P1061,78,Male,Arthritis,Orthopedics,2024-11-08,2024-11-12,4,13988,No
+P1062,81,Male,Asthma,Pulmonology,2023-08-22,2023-08-23,1,12908,No
+P1063,36,Male,Pneumonia,Pulmonology,2023-10-24,2023-10-30,6,15577,No
+P1064,50,Male,Hypertension,Cardiology,2023-03-23,2023-03-27,4,10584,No
+P1065,4,Male,Arthritis,Orthopedics,2023-08-27,2023-08-30,3,13979,No
+P1066,2,Female,Hypertension,Cardiology,2023-04-14,2023-04-17,3,14085,No
+P1067,6,Male,Asthma,Pulmonology,2024-01-25,2024-02-03,9,11389,No
+P1068,54,Male,Arthritis,Orthopedics,2023-10-12,2023-10-18,6,19243,No
+P1069,4,Female,Heart Disease,Cardiology,2024-04-09,2024-04-18,9,28653,No
+P1070,54,Male,Diabetes,Endocrinology,2024-10-12,2024-10-17,5,11516,Yes
+P1071,63,Female,Flu,General Medicine,2024-01-09,2024-01-11,2,4569,No
+P1072,18,Female,Migraine,Neurology,2023-06-16,2023-06-24,8,6772,No
+P1073,44,Female,Kidney Disease,Nephrology,2024-01-15,2024-01-20,5,26050,No
+P1074,34,Male,Migraine,Neurology,2023-12-30,2024-01-01,2,8966,No
+P1075,74,Male,Pneumonia,Pulmonology,2023-08-03,2023-08-07,4,16265,No
+P1076,62,Male,Migraine,Neurology,2024-11-17,2024-11-26,9,10935,No
+P1077,14,Female,Arthritis,Orthopedics,2023-10-01,2023-10-05,4,17829,No
+P1078,48,Male,Heart Disease,Cardiology,2024-11-30,2024-12-04,4,29227,Yes
+P1079,15,Male,Flu,General Medicine,2024-10-25,2024-10-27,2,7297,No
+P1080,72,Male,Diabetes,Endocrinology,2023-03-15,2023-03-21,6,14888,No
+P1081,78,Female,Diabetes,Endocrinology,2024-09-15,2024-09-26,11,12318,No
+P1082,87,Female,Asthma,Pulmonology,2024-10-12,2024-10-14,2,7823,No
+P1083,62,Male,Kidney Disease,Nephrology,2023-06-25,2023-07-02,7,26820,No
+P1084,40,Male,Hypertension,Cardiology,2024-06-30,2024-07-03,3,9590,No
+P1085,85,Male,Heart Disease,Cardiology,2023-09-08,2023-09-11,3,25426,No
+P1086,80,Male,Hypertension,Cardiology,2023-06-17,2023-06-22,5,9863,Yes
+P1087,82,Female,Flu,General Medicine,2024-04-18,2024-04-21,3,5956,No
+P1088,53,Female,Migraine,Neurology,2024-01-24,2024-01-26,2,6469,Yes
+P1089,24,Female,Diabetes,Endocrinology,2023-10-04,2023-10-14,10,12476,No
+P1090,26,Female,Flu,General Medicine,2024-10-17,2024-10-26,9,3115,No
+P1091,89,Male,Migraine,Neurology,2024-07-24,2024-07-26,2,10800,Yes
+P1092,60,Male,Diabetes,Endocrinology,2023-08-13,2023-08-24,11,14375,No
+P1093,41,Male,Migraine,Neurology,2023-11-29,2023-12-01,2,6036,No
+P1094,29,Female,Kidney Disease,Nephrology,2023-02-27,2023-03-07,8,22247,No
+P1095,15,Male,Heart Disease,Cardiology,2023-08-23,2023-09-01,9,23372,No
+P1096,45,Female,Pneumonia,Pulmonology,2023-02-02,2023-02-09,7,14446,No
+P1097,65,Female,Flu,General Medicine,2023-11-20,2023-11-23,3,7533,No
+P1098,89,Male,Flu,General Medicine,2024-02-15,2024-02-24,9,5393,No
+P1099,71,Male,COVID-19,Infectious Disease,2023-10-02,2023-10-05,3,23713,No
+P1100,9,Male,Arthritis,Orthopedics,2023-03-09,2023-03-14,5,14034,No
+P1101,88,Female,Kidney Disease,Nephrology,2023-08-05,2023-08-14,9,25225,No
+P1102,1,Male,Kidney Disease,Nephrology,2024-08-03,2024-08-06,3,26166,No
+P1103,8,Female,Hypertension,Cardiology,2023-11-19,2023-11-26,7,12021,Yes
+P1104,88,Male,Migraine,Neurology,2023-08-06,2023-08-07,1,5840,No
+P1105,63,Female,Arthritis,Orthopedics,2024-11-02,2024-11-06,4,13100,No
+P1106,11,Female,Heart Disease,Cardiology,2024-05-26,2024-05-30,4,27702,Yes
+P1107,81,Male,Heart Disease,Cardiology,2024-02-10,2024-02-17,7,25329,No
+P1108,8,Female,Kidney Disease,Nephrology,2024-10-20,2024-10-28,8,23845,No
+P1109,35,Female,Heart Disease,Cardiology,2024-04-14,2024-04-15,1,26921,No
+P1110,35,Male,COVID-19,Infectious Disease,2023-05-27,2023-06-01,5,21608,No
+P1111,33,Female,Flu,General Medicine,2023-09-29,2023-10-06,7,5791,No
+P1112,5,Male,Asthma,Pulmonology,2023-05-23,2023-05-27,4,8510,Yes
+P1113,41,Female,Pneumonia,Pulmonology,2023-09-10,2023-09-14,4,14420,No
+P1114,28,Male,Hypertension,Cardiology,2024-07-28,2024-08-01,4,10068,No
+P1115,7,Male,Migraine,Neurology,2024-07-05,2024-07-11,6,8913,No
+P1116,73,Female,Pneumonia,Pulmonology,2023-09-27,2023-10-04,7,14934,No
+P1117,72,Female,Migraine,Neurology,2024-08-21,2024-08-23,2,11734,No
+P1118,12,Female,Diabetes,Endocrinology,2024-03-14,2024-03-19,5,10535,No
+P1119,34,Female,Pneumonia,Pulmonology,2024-08-20,2024-08-24,4,17282,No
+P1120,33,Female,Asthma,Pulmonology,2024-02-13,2024-02-16,3,11028,No
+P1121,48,Male,Kidney Disease,Nephrology,2024-01-06,2024-01-13,7,20606,No
+P1122,23,Female,COVID-19,Infectious Disease,2023-08-13,2023-08-24,11,22726,No
+P1123,62,Male,Flu,General Medicine,2023-05-22,2023-05-28,6,8156,No
+P1124,88,Male,Flu,General Medicine,2024-06-05,2024-06-12,7,8623,No
+P1125,37,Female,COVID-19,Infectious Disease,2024-05-20,2024-05-25,5,18439,Yes
+P1126,44,Male,Arthritis,Orthopedics,2023-04-04,2023-04-10,6,14242,Yes
+P1127,86,Male,Diabetes,Endocrinology,2023-02-18,2023-02-23,5,11222,Yes
+P1128,35,Male,Migraine,Neurology,2023-04-23,2023-04-30,7,11644,Yes
+P1129,65,Male,Asthma,Pulmonology,2023-06-06,2023-06-08,2,11610,No
+P1130,47,Female,Heart Disease,Cardiology,2024-10-04,2024-10-15,11,25489,No
+P1131,78,Male,Pneumonia,Pulmonology,2023-06-13,2023-06-18,5,14697,No
+P1132,3,Female,Diabetes,Endocrinology,2024-11-27,2024-12-03,6,12033,No
+P1133,1,Female,Pneumonia,Pulmonology,2024-03-08,2024-03-14,6,14970,No
+P1134,5,Male,Asthma,Pulmonology,2024-09-02,2024-09-07,5,11571,No
+P1135,14,Female,Hypertension,Cardiology,2023-03-07,2023-03-17,10,14262,No
+P1136,27,Female,Hypertension,Cardiology,2024-01-30,2024-02-06,7,11409,No
+P1137,9,Female,Diabetes,Endocrinology,2024-01-26,2024-02-05,10,14966,No
+P1138,79,Male,Kidney Disease,Nephrology,2024-09-02,2024-09-10,8,24883,Yes
+P1139,15,Female,Asthma,Pulmonology,2024-04-24,2024-05-01,7,13477,No
+P1140,42,Female,Asthma,Pulmonology,2024-06-25,2024-06-30,5,12066,No
+P1141,77,Female,COVID-19,Infectious Disease,2023-09-15,2023-09-16,1,19848,No
+P1142,51,Male,Kidney Disease,Nephrology,2024-07-20,2024-07-25,5,26354,No
+P1143,63,Female,Migraine,Neurology,2023-01-12,2023-01-22,10,9280,No
+P1144,52,Male,Migraine,Neurology,2024-11-27,2024-11-29,2,8116,No
+P1145,4,Male,Heart Disease,Cardiology,2023-04-28,2023-05-03,5,26690,Yes
+P1146,23,Male,Flu,General Medicine,2024-11-29,2024-12-04,5,6626,No
+P1147,15,Male,Hypertension,Cardiology,2024-07-03,2024-07-05,2,10435,No
+P1148,43,Male,Migraine,Neurology,2023-10-01,2023-10-06,5,9821,No
+P1149,29,Male,Kidney Disease,Nephrology,2024-10-18,2024-10-22,4,23512,Yes
+P1150,36,Female,Asthma,Pulmonology,2023-12-15,2023-12-16,1,9501,No
+P1151,13,Male,Migraine,Neurology,2023-04-25,2023-04-28,3,9658,No
+P1152,32,Female,Asthma,Pulmonology,2023-10-28,2023-10-29,1,12087,No
+P1153,71,Female,Migraine,Neurology,2024-03-21,2024-04-01,11,5493,No
+P1154,59,Male,Hypertension,Cardiology,2023-06-11,2023-06-16,5,12994,No
+P1155,86,Female,Pneumonia,Pulmonology,2024-04-09,2024-04-13,4,20062,No
+P1156,28,Female,Migraine,Neurology,2023-01-04,2023-01-11,7,5812,No
+P1157,66,Female,Kidney Disease,Nephrology,2023-09-27,2023-10-02,5,26248,No
+P1158,42,Female,Migraine,Neurology,2024-05-27,2024-06-06,10,6702,Yes
+P1159,45,Male,Flu,General Medicine,2023-07-02,2023-07-06,4,8124,No
+P1160,62,Female,Hypertension,Cardiology,2024-06-03,2024-06-05,2,9728,Yes
+P1161,57,Male,Kidney Disease,Nephrology,2023-04-19,2023-04-23,4,22167,No
+P1162,6,Female,COVID-19,Infectious Disease,2024-10-02,2024-10-04,2,23410,Yes
+P1163,28,Female,Kidney Disease,Nephrology,2023-11-02,2023-11-10,8,20665,No
+P1164,28,Male,Flu,General Medicine,2024-10-16,2024-10-19,3,4286,No
+P1165,44,Female,Pneumonia,Pulmonology,2024-06-03,2024-06-12,9,15964,No
+P1166,84,Female,Hypertension,Cardiology,2024-09-15,2024-09-19,4,9423,Yes
+P1167,30,Female,COVID-19,Infectious Disease,2023-07-23,2023-07-29,6,22521,No
+P1168,62,Male,Flu,General Medicine,2023-06-06,2023-06-16,10,3614,Yes
+P1169,75,Female,Flu,General Medicine,2024-01-18,2024-01-23,5,4282,No
+P1170,89,Male,Diabetes,Endocrinology,2023-06-15,2023-06-25,10,10021,No
+P1171,62,Female,Hypertension,Cardiology,2024-07-06,2024-07-07,1,11346,No
+P1172,1,Male,Kidney Disease,Nephrology,2024-06-27,2024-07-06,9,23690,No
+P1173,27,Male,Asthma,Pulmonology,2023-01-01,2023-01-02,1,12647,No
+P1174,62,Female,Pneumonia,Pulmonology,2024-09-05,2024-09-13,8,18864,Yes
+P1175,77,Female,Asthma,Pulmonology,2023-11-28,2023-12-07,9,10849,No
+P1176,3,Male,Kidney Disease,Nephrology,2024-05-15,2024-05-24,9,22385,No
+P1177,70,Male,Kidney Disease,Nephrology,2023-01-20,2023-01-21,1,20267,No
+P1178,72,Female,Hypertension,Cardiology,2023-04-25,2023-04-27,2,9896,Yes
+P1179,27,Male,Kidney Disease,Nephrology,2024-01-07,2024-01-08,1,22360,No
+P1180,9,Female,Diabetes,Endocrinology,2023-11-11,2023-11-21,10,15791,No
+P1181,62,Female,COVID-19,Infectious Disease,2023-09-03,2023-09-05,2,20316,No
+P1182,37,Female,Kidney Disease,Nephrology,2023-03-01,2023-03-11,10,25758,No
+P1183,51,Female,Asthma,Pulmonology,2023-09-04,2023-09-12,8,10719,No
+P1184,44,Male,Kidney Disease,Nephrology,2024-08-03,2024-08-08,5,20583,Yes
+P1185,24,Female,Diabetes,Endocrinology,2023-03-22,2023-04-02,11,15631,Yes
+P1186,79,Male,Migraine,Neurology,2023-03-29,2023-04-05,7,6912,No
+P1187,59,Female,Migraine,Neurology,2024-05-12,2024-05-14,2,7167,No
+P1188,32,Male,Flu,General Medicine,2023-03-12,2023-03-20,8,9453,No
+P1189,88,Female,Pneumonia,Pulmonology,2024-06-29,2024-07-10,11,20481,No
+P1190,52,Male,Heart Disease,Cardiology,2023-05-09,2023-05-15,6,28120,Yes
+P1191,62,Male,COVID-19,Infectious Disease,2023-05-12,2023-05-20,8,22831,Yes
+P1192,58,Female,Arthritis,Orthopedics,2024-11-06,2024-11-07,1,18416,No
+P1193,52,Female,Flu,General Medicine,2024-05-01,2024-05-02,1,9585,No
+P1194,12,Female,Pneumonia,Pulmonology,2024-07-16,2024-07-23,7,15620,No
+P1195,39,Female,Migraine,Neurology,2023-06-19,2023-06-27,8,8482,No
+P1196,2,Male,Asthma,Pulmonology,2023-09-29,2023-10-02,3,7940,No
+P1197,3,Female,Arthritis,Orthopedics,2024-06-24,2024-06-29,5,17461,Yes
+P1198,56,Male,Pneumonia,Pulmonology,2024-09-13,2024-09-14,1,15841,No
+P1199,81,Male,Pneumonia,Pulmonology,2024-03-09,2024-03-16,7,19305,Yes
+P1200,59,Female,Flu,General Medicine,2023-08-05,2023-08-10,5,4220,No
+P1201,2,Male,Arthritis,Orthopedics,2024-07-06,2024-07-14,8,15176,No
+P1202,2,Male,Hypertension,Cardiology,2023-07-25,2023-08-02,8,14771,No
+P1203,54,Male,Heart Disease,Cardiology,2023-11-16,2023-11-25,9,24165,No
+P1204,87,Male,Hypertension,Cardiology,2024-02-13,2024-02-20,7,8584,No
+P1205,1,Female,Arthritis,Orthopedics,2024-11-18,2024-11-29,11,13488,No
+P1206,19,Female,Hypertension,Cardiology,2024-10-27,2024-10-28,1,9359,No
+P1207,2,Female,Diabetes,Endocrinology,2024-01-18,2024-01-21,3,16493,Yes
+P1208,53,Female,Migraine,Neurology,2024-03-24,2024-04-01,8,7519,No
+P1209,44,Male,Diabetes,Endocrinology,2024-06-13,2024-06-16,3,14874,Yes
+P1210,32,Male,Kidney Disease,Nephrology,2024-04-07,2024-04-15,8,26135,Yes
+P1211,70,Female,Hypertension,Cardiology,2023-05-04,2023-05-05,1,14752,No
+P1212,32,Female,Kidney Disease,Nephrology,2023-09-11,2023-09-16,5,24662,No
+P1213,68,Female,Asthma,Pulmonology,2023-08-19,2023-08-23,4,9364,No
+P1214,55,Male,COVID-19,Infectious Disease,2023-03-07,2023-03-12,5,21597,No
+P1215,75,Female,Asthma,Pulmonology,2023-12-13,2023-12-21,8,8018,No
+P1216,56,Female,Arthritis,Orthopedics,2023-01-22,2023-02-01,10,16839,Yes
+P1217,17,Female,Pneumonia,Pulmonology,2024-08-25,2024-08-29,4,19641,No
+P1218,38,Male,Migraine,Neurology,2024-07-21,2024-08-01,11,7491,No
+P1219,24,Male,Hypertension,Cardiology,2023-08-24,2023-08-28,4,13732,No
+P1220,69,Male,Flu,General Medicine,2024-08-25,2024-08-28,3,6297,No
+P1221,70,Male,COVID-19,Infectious Disease,2023-08-14,2023-08-21,7,20230,No
+P1222,86,Male,Heart Disease,Cardiology,2023-01-08,2023-01-11,3,27099,Yes
+P1223,11,Male,Heart Disease,Cardiology,2023-03-14,2023-03-17,3,27423,No
+P1224,16,Male,Heart Disease,Cardiology,2024-10-08,2024-10-19,11,27045,No
+P1225,73,Male,Hypertension,Cardiology,2023-03-02,2023-03-12,10,11586,No
+P1226,59,Female,Heart Disease,Cardiology,2023-08-23,2023-08-28,5,23658,No
+P1227,70,Female,Diabetes,Endocrinology,2023-03-11,2023-03-16,5,14899,No
+P1228,80,Male,COVID-19,Infectious Disease,2023-02-02,2023-02-08,6,18326,Yes
+P1229,3,Male,Diabetes,Endocrinology,2023-12-05,2023-12-13,8,13539,No
+P1230,20,Female,Pneumonia,Pulmonology,2023-03-14,2023-03-24,10,20017,No
+P1231,59,Male,COVID-19,Infectious Disease,2024-06-10,2024-06-16,6,20640,Yes
+P1232,36,Male,Diabetes,Endocrinology,2023-09-01,2023-09-02,1,14945,No
+P1233,19,Male,COVID-19,Infectious Disease,2023-10-13,2023-10-21,8,20051,No
+P1234,67,Female,Pneumonia,Pulmonology,2024-11-16,2024-11-24,8,14211,No
+P1235,19,Female,Kidney Disease,Nephrology,2024-05-12,2024-05-21,9,20748,No
+P1236,20,Female,Hypertension,Cardiology,2023-08-08,2023-08-17,9,9875,No
+P1237,71,Female,Hypertension,Cardiology,2024-07-06,2024-07-08,2,13523,No
+P1238,52,Female,Heart Disease,Cardiology,2023-05-16,2023-05-18,2,29848,No
+P1239,33,Male,Asthma,Pulmonology,2024-08-07,2024-08-10,3,11712,No
+P1240,40,Female,Heart Disease,Cardiology,2024-08-13,2024-08-14,1,27809,No
+P1241,39,Male,Arthritis,Orthopedics,2024-04-29,2024-05-03,4,13169,Yes
+P1242,82,Male,Diabetes,Endocrinology,2023-09-06,2023-09-10,4,16264,No
+P1243,1,Female,COVID-19,Infectious Disease,2024-04-29,2024-05-08,9,23507,No
+P1244,11,Female,Asthma,Pulmonology,2024-02-21,2024-03-01,9,13729,No
+P1245,57,Male,Pneumonia,Pulmonology,2023-07-14,2023-07-23,9,16207,Yes
+P1246,89,Male,Arthritis,Orthopedics,2023-04-07,2023-04-17,10,17720,No
+P1247,50,Male,Pneumonia,Pulmonology,2023-04-10,2023-04-17,7,14329,No
+P1248,23,Female,Hypertension,Cardiology,2024-11-05,2024-11-07,2,14251,No
+P1249,31,Female,Hypertension,Cardiology,2024-03-17,2024-03-27,10,14195,No
+P1250,42,Female,Heart Disease,Cardiology,2023-12-29,2024-01-03,5,24435,Yes
+P1251,7,Female,Diabetes,Endocrinology,2024-03-09,2024-03-13,4,13854,No
+P1252,16,Female,Asthma,Pulmonology,2024-02-25,2024-03-07,11,11251,No
+P1253,60,Male,Migraine,Neurology,2024-04-23,2024-05-01,8,10337,Yes
+P1254,2,Female,Arthritis,Orthopedics,2023-02-25,2023-02-27,2,16622,No
+P1255,1,Male,Arthritis,Orthopedics,2024-11-20,2024-11-26,6,15278,No
+P1256,48,Male,Heart Disease,Cardiology,2024-10-31,2024-11-05,5,24486,Yes
+P1257,12,Male,Hypertension,Cardiology,2024-10-23,2024-10-25,2,12795,No
+P1258,69,Female,Heart Disease,Cardiology,2023-04-11,2023-04-22,11,26570,No
+P1259,37,Female,COVID-19,Infectious Disease,2023-03-04,2023-03-14,10,23200,No
+P1260,32,Female,Asthma,Pulmonology,2024-02-17,2024-02-18,1,13670,Yes
+P1261,9,Male,Diabetes,Endocrinology,2023-12-14,2023-12-22,8,14028,No
+P1262,19,Male,Kidney Disease,Nephrology,2023-04-22,2023-04-24,2,20747,No
+P1263,48,Male,Flu,General Medicine,2023-09-12,2023-09-19,7,6850,No
+P1264,80,Male,Flu,General Medicine,2023-07-16,2023-07-25,9,5850,No
+P1265,3,Male,Heart Disease,Cardiology,2023-07-14,2023-07-23,9,26345,No
+P1266,20,Male,COVID-19,Infectious Disease,2024-07-03,2024-07-11,8,20730,No
+P1267,24,Female,Asthma,Pulmonology,2024-04-04,2024-04-15,11,9630,No
+P1268,54,Female,Migraine,Neurology,2023-05-24,2023-06-03,10,10489,No
+P1269,33,Female,Flu,General Medicine,2024-03-08,2024-03-17,9,3856,No
+P1270,24,Female,Asthma,Pulmonology,2023-07-07,2023-07-09,2,8317,No
+P1271,75,Male,Diabetes,Endocrinology,2023-10-13,2023-10-19,6,12701,No
+P1272,72,Male,Pneumonia,Pulmonology,2024-04-18,2024-04-22,4,17372,No
+P1273,36,Female,COVID-19,Infectious Disease,2023-09-13,2023-09-17,4,23682,No
+P1274,38,Male,Hypertension,Cardiology,2023-03-19,2023-03-24,5,12058,No
+P1275,84,Female,Asthma,Pulmonology,2024-03-29,2024-04-01,3,9361,No
+P1276,89,Female,Diabetes,Endocrinology,2024-07-17,2024-07-18,1,15427,No
+P1277,25,Female,Migraine,Neurology,2023-04-11,2023-04-19,8,8280,No
+P1278,18,Male,Kidney Disease,Nephrology,2023-02-21,2023-02-26,5,26664,No
+P1279,82,Female,Hypertension,Cardiology,2024-10-29,2024-11-01,3,14230,No
+P1280,66,Female,Kidney Disease,Nephrology,2024-07-07,2024-07-17,10,24506,Yes
+P1281,54,Female,Migraine,Neurology,2023-01-16,2023-01-23,7,5300,Yes
+P1282,35,Male,Diabetes,Endocrinology,2023-04-06,2023-04-13,7,13725,No
+P1283,80,Male,Flu,General Medicine,2023-08-31,2023-09-01,1,3721,No
+P1284,61,Female,Kidney Disease,Nephrology,2023-06-20,2023-06-29,9,22576,No
+P1285,41,Male,Hypertension,Cardiology,2024-02-21,2024-02-23,2,10067,No
+P1286,33,Male,Heart Disease,Cardiology,2024-05-12,2024-05-17,5,25648,No
+P1287,68,Male,Arthritis,Orthopedics,2024-05-07,2024-05-12,5,13949,Yes
+P1288,33,Male,Asthma,Pulmonology,2023-08-07,2023-08-15,8,13328,No
+P1289,14,Male,Flu,General Medicine,2024-02-15,2024-02-23,8,6311,No
+P1290,21,Male,Kidney Disease,Nephrology,2023-03-02,2023-03-09,7,24215,No
+P1291,48,Male,Pneumonia,Pulmonology,2023-06-18,2023-06-25,7,20757,No
+P1292,20,Male,Asthma,Pulmonology,2024-01-24,2024-02-04,11,7009,No
+P1293,8,Male,Heart Disease,Cardiology,2023-01-03,2023-01-09,6,28387,Yes
+P1294,7,Male,Migraine,Neurology,2024-02-04,2024-02-10,6,9444,No
+P1295,67,Female,Arthritis,Orthopedics,2023-09-29,2023-10-10,11,16784,No
+P1296,17,Female,Diabetes,Endocrinology,2024-04-10,2024-04-19,9,13385,No
+P1297,33,Male,Heart Disease,Cardiology,2023-10-20,2023-10-26,6,23444,No
+P1298,48,Female,Heart Disease,Cardiology,2024-03-09,2024-03-11,2,24536,No
+P1299,76,Female,Migraine,Neurology,2024-07-23,2024-07-25,2,9247,No
+P1300,59,Male,COVID-19,Infectious Disease,2024-11-08,2024-11-13,5,20963,No
+P1301,86,Male,Migraine,Neurology,2024-05-13,2024-05-17,4,10100,No
+P1302,22,Male,COVID-19,Infectious Disease,2023-06-08,2023-06-19,11,24196,No
+P1303,30,Female,COVID-19,Infectious Disease,2023-07-14,2023-07-16,2,22083,No
+P1304,38,Female,Flu,General Medicine,2023-10-31,2023-11-03,3,8123,No
+P1305,51,Male,Flu,General Medicine,2023-08-11,2023-08-18,7,6621,No
+P1306,54,Male,Hypertension,Cardiology,2023-03-01,2023-03-09,8,14225,Yes
+P1307,8,Male,Kidney Disease,Nephrology,2024-08-16,2024-08-22,6,20422,Yes
+P1308,27,Female,Kidney Disease,Nephrology,2024-07-09,2024-07-20,11,21667,Yes
+P1309,27,Female,Diabetes,Endocrinology,2023-03-04,2023-03-09,5,12187,No
+P1310,21,Female,Kidney Disease,Nephrology,2023-11-18,2023-11-19,1,24499,No
+P1311,30,Female,Flu,General Medicine,2023-02-28,2023-03-08,8,4073,Yes
+P1312,28,Male,Hypertension,Cardiology,2023-02-21,2023-02-24,3,10359,Yes
+P1313,64,Male,Hypertension,Cardiology,2024-08-21,2024-08-27,6,11589,No
+P1314,69,Male,COVID-19,Infectious Disease,2024-05-03,2024-05-06,3,23720,No
+P1315,61,Male,Migraine,Neurology,2024-05-29,2024-06-05,7,8970,No
+P1316,48,Female,Diabetes,Endocrinology,2024-06-27,2024-07-04,7,10994,No
+P1317,19,Female,COVID-19,Infectious Disease,2023-06-11,2023-06-20,9,18236,No
+P1318,4,Male,Migraine,Neurology,2023-02-28,2023-03-05,5,10161,Yes
+P1319,35,Male,Kidney Disease,Nephrology,2024-06-04,2024-06-12,8,24987,No
+P1320,64,Female,COVID-19,Infectious Disease,2023-03-24,2023-04-03,10,24547,No
+P1321,49,Male,Asthma,Pulmonology,2023-07-10,2023-07-20,10,8960,No
+P1322,17,Female,Kidney Disease,Nephrology,2023-03-12,2023-03-20,8,25814,No
+P1323,44,Male,Migraine,Neurology,2024-09-01,2024-09-02,1,6297,Yes
+P1324,30,Male,Diabetes,Endocrinology,2023-03-11,2023-03-16,5,12545,No
+P1325,46,Male,Migraine,Neurology,2024-11-22,2024-11-25,3,9512,No
+P1326,6,Male,COVID-19,Infectious Disease,2023-08-29,2023-08-30,1,18112,No
+P1327,37,Male,COVID-19,Infectious Disease,2024-02-18,2024-02-22,4,22524,No
+P1328,24,Male,Heart Disease,Cardiology,2023-05-03,2023-05-11,8,26342,No
+P1329,46,Male,Diabetes,Endocrinology,2024-08-06,2024-08-09,3,10763,Yes
+P1330,53,Female,Pneumonia,Pulmonology,2023-09-10,2023-09-20,10,15840,Yes
+P1331,60,Female,Kidney Disease,Nephrology,2024-08-15,2024-08-17,2,26892,No
+P1332,63,Female,Hypertension,Cardiology,2024-08-31,2024-09-11,11,8929,No
+P1333,85,Female,Diabetes,Endocrinology,2023-02-10,2023-02-19,9,13780,Yes
+P1334,32,Female,Hypertension,Cardiology,2024-09-26,2024-10-06,10,8962,No
+P1335,87,Male,Diabetes,Endocrinology,2023-03-25,2023-03-30,5,15306,No
+P1336,33,Male,Diabetes,Endocrinology,2024-03-05,2024-03-12,7,16816,No
+P1337,67,Female,Migraine,Neurology,2024-11-04,2024-11-15,11,6261,Yes
+P1338,18,Male,Diabetes,Endocrinology,2024-08-20,2024-08-31,11,14082,No
+P1339,25,Female,Heart Disease,Cardiology,2024-08-01,2024-08-03,2,28870,No
+P1340,54,Female,Pneumonia,Pulmonology,2024-06-19,2024-06-28,9,16390,No
+P1341,58,Male,COVID-19,Infectious Disease,2023-11-20,2023-11-29,9,22168,No
+P1342,67,Male,Arthritis,Orthopedics,2023-09-25,2023-09-29,4,18778,No
+P1343,46,Male,Hypertension,Cardiology,2023-07-29,2023-08-02,4,10239,No
+P1344,24,Female,COVID-19,Infectious Disease,2024-11-16,2024-11-22,6,21403,Yes
+P1345,32,Male,Arthritis,Orthopedics,2023-11-18,2023-11-28,10,19838,No
+P1346,47,Female,Pneumonia,Pulmonology,2023-09-02,2023-09-12,10,17952,Yes
+P1347,86,Female,Pneumonia,Pulmonology,2023-09-29,2023-10-09,10,17868,No
+P1348,23,Female,Hypertension,Cardiology,2024-02-10,2024-02-16,6,9996,No
+P1349,66,Male,Hypertension,Cardiology,2023-05-15,2023-05-16,1,11741,No
+P1350,27,Male,Pneumonia,Pulmonology,2024-11-18,2024-11-27,9,18515,No
+P1351,2,Female,Arthritis,Orthopedics,2024-10-22,2024-10-24,2,14184,Yes
+P1352,17,Male,Diabetes,Endocrinology,2023-11-04,2023-11-09,5,13142,No
+P1353,33,Male,Kidney Disease,Nephrology,2024-04-13,2024-04-22,9,21561,No
+P1354,9,Male,Asthma,Pulmonology,2023-11-20,2023-11-24,4,11910,No
+P1355,43,Female,COVID-19,Infectious Disease,2023-03-16,2023-03-27,11,22163,No
+P1356,48,Female,Migraine,Neurology,2023-01-10,2023-01-13,3,11113,No
+P1357,39,Male,COVID-19,Infectious Disease,2024-04-14,2024-04-21,7,19118,No
+P1358,42,Female,Migraine,Neurology,2024-09-28,2024-10-04,6,5571,No
+P1359,26,Male,Arthritis,Orthopedics,2024-07-30,2024-08-07,8,15263,No
+P1360,50,Male,Migraine,Neurology,2023-04-13,2023-04-16,3,11329,No
+P1361,25,Male,Hypertension,Cardiology,2023-03-17,2023-03-22,5,14471,No
+P1362,24,Male,Kidney Disease,Nephrology,2024-07-04,2024-07-14,10,26999,No
+P1363,13,Female,Kidney Disease,Nephrology,2023-08-07,2023-08-11,4,23399,No
+P1364,60,Female,Hypertension,Cardiology,2024-06-02,2024-06-06,4,10784,No
+P1365,7,Female,Heart Disease,Cardiology,2023-09-29,2023-10-03,4,29452,No
+P1366,57,Male,Arthritis,Orthopedics,2023-05-16,2023-05-26,10,17159,No
+P1367,36,Male,Heart Disease,Cardiology,2023-12-24,2024-01-01,8,25188,No
+P1368,45,Male,Heart Disease,Cardiology,2023-03-12,2023-03-18,6,29721,Yes
+P1369,20,Female,COVID-19,Infectious Disease,2023-09-08,2023-09-11,3,18021,No
+P1370,65,Male,Pneumonia,Pulmonology,2024-01-14,2024-01-24,10,16317,No
+P1371,8,Female,COVID-19,Infectious Disease,2023-10-19,2023-10-24,5,23947,No
+P1372,16,Female,Pneumonia,Pulmonology,2023-06-11,2023-06-17,6,16445,Yes
+P1373,14,Female,Asthma,Pulmonology,2024-03-24,2024-03-29,5,13860,No
+P1374,76,Female,Migraine,Neurology,2024-07-10,2024-07-16,6,9808,No
+P1375,87,Female,Pneumonia,Pulmonology,2023-11-06,2023-11-14,8,18750,No
+P1376,15,Female,Hypertension,Cardiology,2024-09-18,2024-09-25,7,13406,No
+P1377,66,Male,COVID-19,Infectious Disease,2024-10-31,2024-11-05,5,22011,No
+P1378,32,Male,Arthritis,Orthopedics,2024-06-25,2024-07-05,10,14217,Yes
+P1379,87,Female,Migraine,Neurology,2023-01-09,2023-01-15,6,8658,No
+P1380,63,Female,Asthma,Pulmonology,2024-11-14,2024-11-18,4,11412,No
+P1381,86,Male,Pneumonia,Pulmonology,2024-07-21,2024-07-30,9,17967,No
+P1382,51,Female,Asthma,Pulmonology,2023-11-03,2023-11-07,4,9827,No
+P1383,25,Female,Arthritis,Orthopedics,2024-11-10,2024-11-11,1,15723,No
+P1384,58,Male,Heart Disease,Cardiology,2023-04-17,2023-04-24,7,27521,No
+P1385,63,Female,Kidney Disease,Nephrology,2023-05-18,2023-05-25,7,26249,No
+P1386,62,Female,Arthritis,Orthopedics,2023-09-28,2023-10-02,4,17451,No
+P1387,22,Female,Flu,General Medicine,2023-04-29,2023-05-02,3,6090,No
+P1388,58,Male,Arthritis,Orthopedics,2023-04-20,2023-04-28,8,16730,Yes
+P1389,58,Male,Asthma,Pulmonology,2024-07-20,2024-07-25,5,9636,No
+P1390,86,Male,Hypertension,Cardiology,2023-06-09,2023-06-19,10,9545,No
+P1391,49,Female,COVID-19,Infectious Disease,2023-10-06,2023-10-13,7,23713,Yes
+P1392,52,Female,Hypertension,Cardiology,2023-10-16,2023-10-20,4,9956,No
+P1393,42,Male,Asthma,Pulmonology,2024-09-11,2024-09-15,4,11684,No
+P1394,70,Female,COVID-19,Infectious Disease,2023-08-04,2023-08-12,8,21137,No
+P1395,15,Female,Flu,General Medicine,2023-12-18,2023-12-26,8,4913,No
+P1396,54,Female,Kidney Disease,Nephrology,2023-07-28,2023-07-30,2,26353,No
+P1397,60,Female,Migraine,Neurology,2024-10-11,2024-10-13,2,8365,No
+P1398,8,Female,Asthma,Pulmonology,2023-09-28,2023-10-01,3,7357,No
+P1399,53,Male,Pneumonia,Pulmonology,2024-06-01,2024-06-04,3,16606,No
+P1400,60,Female,Asthma,Pulmonology,2024-05-15,2024-05-16,1,13100,No
+P1401,5,Male,Asthma,Pulmonology,2023-09-15,2023-09-18,3,10874,Yes
+P1402,68,Female,COVID-19,Infectious Disease,2023-02-22,2023-02-28,6,23777,Yes
+P1403,6,Male,Diabetes,Endocrinology,2023-04-05,2023-04-13,8,16647,No
+P1404,47,Female,Arthritis,Orthopedics,2024-10-11,2024-10-21,10,16123,No
+P1405,55,Male,Diabetes,Endocrinology,2024-03-09,2024-03-15,6,13162,No
+P1406,40,Female,Flu,General Medicine,2023-10-11,2023-10-16,5,8436,No
+P1407,52,Male,Pneumonia,Pulmonology,2023-02-15,2023-02-19,4,20491,Yes
+P1408,16,Female,Kidney Disease,Nephrology,2023-01-04,2023-01-07,3,26723,No
+P1409,13,Male,Heart Disease,Cardiology,2023-12-08,2023-12-12,4,28341,No
+P1410,30,Female,Flu,General Medicine,2023-05-14,2023-05-21,7,4246,No
+P1411,19,Male,Heart Disease,Cardiology,2024-10-14,2024-10-15,1,27057,No
+P1412,17,Male,Heart Disease,Cardiology,2023-09-26,2023-10-03,7,23303,Yes
+P1413,63,Female,Kidney Disease,Nephrology,2023-06-15,2023-06-16,1,21034,No
+P1414,19,Female,Hypertension,Cardiology,2024-03-28,2024-03-30,2,12114,No
+P1415,58,Male,Diabetes,Endocrinology,2024-07-18,2024-07-22,4,14834,No
+P1416,55,Female,Asthma,Pulmonology,2024-03-13,2024-03-14,1,9719,No
+P1417,62,Male,Migraine,Neurology,2024-07-28,2024-08-08,11,5822,No
+P1418,23,Male,Heart Disease,Cardiology,2023-01-10,2023-01-21,11,29922,No
+P1419,9,Male,Pneumonia,Pulmonology,2023-04-25,2023-05-06,11,17606,Yes
+P1420,12,Female,Flu,General Medicine,2023-03-19,2023-03-28,9,3816,No
+P1421,1,Male,Hypertension,Cardiology,2023-06-02,2023-06-08,6,12308,No
+P1422,58,Male,Heart Disease,Cardiology,2024-07-12,2024-07-13,1,26743,No
+P1423,1,Female,Hypertension,Cardiology,2023-02-06,2023-02-07,1,8125,No
+P1424,34,Female,Hypertension,Cardiology,2024-01-14,2024-01-20,6,13918,Yes
+P1425,48,Female,Heart Disease,Cardiology,2024-08-19,2024-08-23,4,24180,No
+P1426,89,Female,COVID-19,Infectious Disease,2024-07-19,2024-07-23,4,21358,No
+P1427,1,Male,Arthritis,Orthopedics,2023-06-01,2023-06-12,11,18363,Yes
+P1428,16,Male,Pneumonia,Pulmonology,2024-03-16,2024-03-22,6,15264,No
+P1429,61,Male,Asthma,Pulmonology,2023-05-11,2023-05-22,11,7612,No
+P1430,64,Male,Asthma,Pulmonology,2023-02-12,2023-02-19,7,10846,No
+P1431,63,Female,Pneumonia,Pulmonology,2023-11-12,2023-11-21,9,20402,No
+P1432,69,Male,COVID-19,Infectious Disease,2024-01-09,2024-01-19,10,20171,No
+P1433,22,Male,Asthma,Pulmonology,2023-02-10,2023-02-15,5,9773,No
+P1434,67,Female,Hypertension,Cardiology,2024-01-02,2024-01-11,9,13105,No
+P1435,76,Male,Kidney Disease,Nephrology,2023-08-04,2023-08-08,4,25674,No
+P1436,26,Male,Flu,General Medicine,2024-11-29,2024-12-09,10,6256,No
+P1437,16,Male,Diabetes,Endocrinology,2023-09-13,2023-09-15,2,15323,No
+P1438,51,Male,Asthma,Pulmonology,2024-11-13,2024-11-16,3,7657,No
+P1439,86,Male,Pneumonia,Pulmonology,2023-04-16,2023-04-27,11,20977,Yes
+P1440,57,Male,Kidney Disease,Nephrology,2023-12-29,2023-12-30,1,22691,No
+P1441,29,Female,Heart Disease,Cardiology,2024-07-27,2024-08-02,6,29982,No
+P1442,78,Female,Arthritis,Orthopedics,2024-02-21,2024-02-27,6,18524,Yes
+P1443,69,Male,Pneumonia,Pulmonology,2024-09-27,2024-09-28,1,18371,No
+P1444,47,Male,Hypertension,Cardiology,2023-06-08,2023-06-19,11,11113,No
+P1445,62,Female,Arthritis,Orthopedics,2023-08-31,2023-09-03,3,15594,Yes
+P1446,69,Male,Flu,General Medicine,2023-06-16,2023-06-21,5,8134,No
+P1447,76,Male,Flu,General Medicine,2023-07-01,2023-07-04,3,8887,No
+P1448,16,Male,COVID-19,Infectious Disease,2024-02-27,2024-03-08,10,24221,No
+P1449,48,Female,Migraine,Neurology,2023-01-26,2023-01-29,3,8997,Yes
+P1450,85,Male,COVID-19,Infectious Disease,2023-07-03,2023-07-13,10,22432,Yes
+P1451,39,Female,Kidney Disease,Nephrology,2023-12-07,2023-12-10,3,20294,No
+P1452,33,Male,Arthritis,Orthopedics,2024-02-26,2024-03-02,5,18058,No
+P1453,23,Female,Migraine,Neurology,2024-11-16,2024-11-21,5,5560,No
+P1454,10,Female,Heart Disease,Cardiology,2023-09-12,2023-09-16,4,24923,No
+P1455,69,Male,Hypertension,Cardiology,2023-10-01,2023-10-02,1,13170,Yes
+P1456,34,Female,Arthritis,Orthopedics,2023-06-13,2023-06-18,5,18606,No
+P1457,52,Male,COVID-19,Infectious Disease,2023-04-21,2023-05-01,10,20354,No
+P1458,10,Female,Diabetes,Endocrinology,2024-01-27,2024-02-01,5,11863,No
+P1459,19,Male,Migraine,Neurology,2023-02-09,2023-02-13,4,11117,No
+P1460,58,Male,Migraine,Neurology,2024-04-26,2024-05-02,6,5740,No
+P1461,1,Female,Hypertension,Cardiology,2023-08-16,2023-08-26,10,11555,No
+P1462,69,Male,Asthma,Pulmonology,2023-07-24,2023-07-28,4,7806,Yes
+P1463,4,Male,Flu,General Medicine,2024-04-16,2024-04-23,7,9228,No
+P1464,16,Female,Flu,General Medicine,2023-12-25,2024-01-01,7,8191,No
+P1465,24,Male,Diabetes,Endocrinology,2023-11-09,2023-11-11,2,15766,No
+P1466,80,Male,Kidney Disease,Nephrology,2023-08-22,2023-08-25,3,20823,No
+P1467,2,Female,Kidney Disease,Nephrology,2023-08-17,2023-08-18,1,23634,No
+P1468,32,Female,Heart Disease,Cardiology,2023-01-25,2023-02-02,8,24362,No
+P1469,84,Male,Arthritis,Orthopedics,2024-11-06,2024-11-15,9,18685,Yes
+P1470,24,Male,Pneumonia,Pulmonology,2023-07-17,2023-07-21,4,16453,No
+P1471,12,Female,Asthma,Pulmonology,2024-02-13,2024-02-19,6,7237,No
+P1472,50,Female,COVID-19,Infectious Disease,2023-12-03,2023-12-12,9,18376,No
+P1473,35,Male,Pneumonia,Pulmonology,2023-10-13,2023-10-19,6,16657,No
+P1474,33,Female,Pneumonia,Pulmonology,2023-03-13,2023-03-22,9,20522,No
+P1475,33,Male,Migraine,Neurology,2023-10-13,2023-10-17,4,5459,Yes
+P1476,61,Male,Diabetes,Endocrinology,2023-12-26,2024-01-03,8,12403,No
+P1477,51,Male,Flu,General Medicine,2024-10-18,2024-10-27,9,5936,No
+P1478,43,Male,Heart Disease,Cardiology,2024-06-05,2024-06-09,4,26070,Yes
+P1479,12,Male,Kidney Disease,Nephrology,2024-02-14,2024-02-19,5,23528,No
+P1480,67,Female,Diabetes,Endocrinology,2024-11-26,2024-12-04,8,11192,No
+P1481,65,Female,Migraine,Neurology,2024-07-03,2024-07-13,10,7000,No
+P1482,33,Female,COVID-19,Infectious Disease,2023-12-06,2023-12-12,6,22351,No
+P1483,40,Female,Heart Disease,Cardiology,2023-01-29,2023-02-05,7,26375,No
+P1484,74,Male,Migraine,Neurology,2023-04-29,2023-05-02,3,9636,No
+P1485,43,Male,Flu,General Medicine,2023-09-25,2023-10-02,7,8585,No
+P1486,44,Male,Flu,General Medicine,2023-07-02,2023-07-10,8,9492,No
+P1487,29,Male,Flu,General Medicine,2024-08-17,2024-08-27,10,4475,No
+P1488,13,Female,Diabetes,Endocrinology,2023-09-29,2023-10-05,6,11392,No
+P1489,12,Male,Diabetes,Endocrinology,2023-02-09,2023-02-19,10,11434,No
+P1490,46,Male,Kidney Disease,Nephrology,2023-04-22,2023-05-01,9,20646,No
+P1491,2,Female,Kidney Disease,Nephrology,2024-09-02,2024-09-08,6,24992,No
+P1492,35,Female,COVID-19,Infectious Disease,2024-03-20,2024-03-29,9,21133,No
+P1493,87,Female,Heart Disease,Cardiology,2023-12-20,2023-12-24,4,28076,No
+P1494,81,Female,Hypertension,Cardiology,2023-11-18,2023-11-26,8,13596,No
+P1495,8,Male,Hypertension,Cardiology,2024-03-22,2024-04-02,11,9972,No
+P1496,26,Male,Migraine,Neurology,2024-09-12,2024-09-16,4,9076,No
+P1497,74,Female,Flu,General Medicine,2024-06-07,2024-06-09,2,7777,No
+P1498,34,Male,Heart Disease,Cardiology,2023-04-29,2023-05-09,10,24172,No
+P1499,7,Male,Pneumonia,Pulmonology,2024-01-30,2024-02-10,11,15902,Yes
+P1500,68,Male,Diabetes,Endocrinology,2024-08-13,2024-08-22,9,13777,No
+P1501,58,Female,Arthritis,Orthopedics,2023-07-14,2023-07-19,5,18225,No
+P1502,75,Male,Asthma,Pulmonology,2023-09-18,2023-09-22,4,9080,No
+P1503,29,Female,COVID-19,Infectious Disease,2023-02-15,2023-02-17,2,21764,No
+P1504,36,Male,Flu,General Medicine,2024-03-22,2024-03-23,1,5091,No
+P1505,89,Male,Flu,General Medicine,2023-01-02,2023-01-13,11,8462,Yes
+P1506,21,Male,Flu,General Medicine,2024-06-16,2024-06-23,7,3076,No
+P1507,36,Female,Diabetes,Endocrinology,2024-07-05,2024-07-11,6,16591,No
+P1508,10,Male,Diabetes,Endocrinology,2024-11-17,2024-11-19,2,13811,No
+P1509,73,Female,Asthma,Pulmonology,2023-07-21,2023-07-29,8,9356,No
+P1510,24,Female,Pneumonia,Pulmonology,2024-01-08,2024-01-19,11,19550,No
+P1511,64,Female,Heart Disease,Cardiology,2024-03-17,2024-03-21,4,27477,No
+P1512,49,Male,Flu,General Medicine,2023-03-13,2023-03-21,8,4294,No
+P1513,36,Male,Hypertension,Cardiology,2024-11-11,2024-11-18,7,8605,No
+P1514,82,Male,Kidney Disease,Nephrology,2023-12-05,2023-12-10,5,23618,No
+P1515,24,Male,Hypertension,Cardiology,2024-09-30,2024-10-10,10,10830,No
+P1516,23,Female,Migraine,Neurology,2023-11-18,2023-11-28,10,9813,No
+P1517,62,Female,Hypertension,Cardiology,2024-11-10,2024-11-18,8,10450,No
+P1518,37,Female,Migraine,Neurology,2023-05-08,2023-05-17,9,10234,No
+P1519,12,Male,Arthritis,Orthopedics,2023-11-04,2023-11-09,5,16475,No
+P1520,55,Female,Kidney Disease,Nephrology,2024-06-03,2024-06-13,10,25655,No
+P1521,13,Male,Hypertension,Cardiology,2023-11-13,2023-11-18,5,10048,No
+P1522,23,Female,Arthritis,Orthopedics,2024-11-13,2024-11-15,2,16742,No
+P1523,89,Male,COVID-19,Infectious Disease,2024-02-23,2024-02-28,5,24924,No
+P1524,30,Male,Heart Disease,Cardiology,2023-12-01,2023-12-04,3,25474,No
+P1525,17,Female,Arthritis,Orthopedics,2024-02-17,2024-02-24,7,14631,Yes
+P1526,62,Female,Heart Disease,Cardiology,2023-10-30,2023-11-09,10,26151,No
+P1527,84,Female,Hypertension,Cardiology,2024-07-21,2024-07-26,5,14990,No
+P1528,89,Female,Pneumonia,Pulmonology,2023-05-11,2023-05-19,8,17958,No
+P1529,86,Male,Arthritis,Orthopedics,2023-07-16,2023-07-17,1,13873,No
+P1530,13,Female,Kidney Disease,Nephrology,2024-03-06,2024-03-09,3,21943,No
+P1531,59,Female,Hypertension,Cardiology,2024-11-11,2024-11-14,3,11124,No
+P1532,19,Female,Flu,General Medicine,2024-01-24,2024-02-02,9,7685,Yes
+P1533,49,Male,Diabetes,Endocrinology,2024-11-24,2024-11-29,5,12940,No
+P1534,12,Male,Arthritis,Orthopedics,2023-06-28,2023-07-07,9,17708,No
+P1535,61,Female,Kidney Disease,Nephrology,2024-09-22,2024-10-01,9,22423,No
+P1536,19,Male,COVID-19,Infectious Disease,2024-08-05,2024-08-06,1,23728,No
+P1537,76,Female,Flu,General Medicine,2023-11-05,2023-11-07,2,5418,No
+P1538,9,Male,COVID-19,Infectious Disease,2024-02-20,2024-02-25,5,18179,Yes
+P1539,71,Male,Hypertension,Cardiology,2024-07-15,2024-07-19,4,14799,No
+P1540,28,Male,Diabetes,Endocrinology,2023-01-01,2023-01-11,10,15392,No
+P1541,78,Male,Arthritis,Orthopedics,2023-11-08,2023-11-17,9,16242,No
+P1542,52,Female,Arthritis,Orthopedics,2023-10-21,2023-10-28,7,15248,No
+P1543,83,Female,Pneumonia,Pulmonology,2023-08-04,2023-08-10,6,14066,No
+P1544,16,Female,Pneumonia,Pulmonology,2024-03-16,2024-03-23,7,18636,No
+P1545,69,Male,Hypertension,Cardiology,2024-08-16,2024-08-17,1,13618,No
+P1546,12,Female,Hypertension,Cardiology,2024-09-13,2024-09-14,1,14375,No
+P1547,25,Female,Diabetes,Endocrinology,2024-11-01,2024-11-09,8,16100,No
+P1548,52,Female,Pneumonia,Pulmonology,2023-11-26,2023-11-28,2,14401,No
+P1549,85,Male,Kidney Disease,Nephrology,2024-04-21,2024-05-01,10,24967,No
+P1550,53,Male,Kidney Disease,Nephrology,2024-03-28,2024-04-08,11,26104,No
+P1551,23,Male,Diabetes,Endocrinology,2024-03-28,2024-04-06,9,14069,No
+P1552,16,Female,Kidney Disease,Nephrology,2024-11-22,2024-11-29,7,26822,No
+P1553,57,Female,Migraine,Neurology,2023-08-07,2023-08-13,6,7344,No
+P1554,39,Female,Heart Disease,Cardiology,2024-06-07,2024-06-08,1,29354,No
+P1555,53,Male,Diabetes,Endocrinology,2024-04-29,2024-04-30,1,16544,No
+P1556,42,Male,Diabetes,Endocrinology,2023-06-23,2023-06-25,2,11885,Yes
+P1557,58,Female,Asthma,Pulmonology,2024-11-05,2024-11-11,6,11973,No
+P1558,39,Male,Flu,General Medicine,2023-03-28,2023-04-03,6,9569,No
+P1559,14,Male,Flu,General Medicine,2023-10-18,2023-10-20,2,5886,No
+P1560,5,Male,Migraine,Neurology,2024-06-11,2024-06-12,1,6794,No
+P1561,35,Male,Pneumonia,Pulmonology,2024-11-10,2024-11-20,10,19215,Yes
+P1562,87,Female,Hypertension,Cardiology,2024-10-10,2024-10-15,5,9557,No
+P1563,75,Male,Hypertension,Cardiology,2024-09-26,2024-10-01,5,13086,No
+P1564,18,Male,COVID-19,Infectious Disease,2023-12-10,2023-12-12,2,20053,No
+P1565,76,Male,Migraine,Neurology,2023-04-06,2023-04-12,6,10552,No
+P1566,9,Male,Diabetes,Endocrinology,2023-08-29,2023-09-07,9,16189,No
+P1567,74,Female,Migraine,Neurology,2024-11-19,2024-11-21,2,10905,No
+P1568,58,Female,Migraine,Neurology,2023-11-14,2023-11-24,10,11287,No
+P1569,17,Male,Migraine,Neurology,2023-08-19,2023-08-21,2,10400,No
+P1570,7,Male,Flu,General Medicine,2023-07-23,2023-07-26,3,8577,Yes
+P1571,46,Male,Migraine,Neurology,2023-05-31,2023-06-07,7,11867,No
+P1572,13,Male,Heart Disease,Cardiology,2023-01-26,2023-02-01,6,24120,Yes
+P1573,40,Male,Hypertension,Cardiology,2023-02-17,2023-02-25,8,13146,Yes
+P1574,42,Male,COVID-19,Infectious Disease,2023-09-08,2023-09-16,8,18795,No
+P1575,9,Female,Heart Disease,Cardiology,2024-05-01,2024-05-07,6,28140,No
+P1576,50,Male,COVID-19,Infectious Disease,2024-09-17,2024-09-28,11,23294,No
+P1577,27,Female,Asthma,Pulmonology,2023-03-16,2023-03-26,10,7322,No
+P1578,66,Female,COVID-19,Infectious Disease,2024-04-11,2024-04-14,3,20530,No
+P1579,5,Male,Hypertension,Cardiology,2024-02-29,2024-03-03,3,14460,No
+P1580,29,Female,Hypertension,Cardiology,2024-10-06,2024-10-07,1,11611,No
+P1581,37,Female,Migraine,Neurology,2024-08-12,2024-08-19,7,5273,No
+P1582,38,Female,Arthritis,Orthopedics,2023-07-19,2023-07-24,5,17747,No
+P1583,83,Female,Asthma,Pulmonology,2024-01-29,2024-02-02,4,9988,No
+P1584,8,Female,Diabetes,Endocrinology,2024-05-21,2024-05-31,10,15999,No
+P1585,65,Female,Kidney Disease,Nephrology,2024-02-14,2024-02-18,4,21076,No
+P1586,86,Male,COVID-19,Infectious Disease,2023-09-07,2023-09-11,4,18738,No
+P1587,17,Female,Arthritis,Orthopedics,2023-06-01,2023-06-07,6,15417,No
+P1588,71,Female,Migraine,Neurology,2024-11-02,2024-11-10,8,7676,No
+P1589,89,Female,Flu,General Medicine,2023-01-06,2023-01-14,8,9123,No
+P1590,45,Male,Diabetes,Endocrinology,2023-04-20,2023-04-25,5,13403,No
+P1591,4,Female,Pneumonia,Pulmonology,2024-03-11,2024-03-17,6,15438,No
+P1592,36,Male,Arthritis,Orthopedics,2023-08-13,2023-08-17,4,14644,No
+P1593,70,Female,Flu,General Medicine,2023-06-30,2023-07-11,11,4082,No
+P1594,31,Male,Asthma,Pulmonology,2024-06-14,2024-06-23,9,13443,No
+P1595,19,Male,Migraine,Neurology,2024-04-20,2024-04-28,8,9418,No
+P1596,61,Female,Diabetes,Endocrinology,2023-02-21,2023-03-03,10,12997,No
+P1597,54,Female,Diabetes,Endocrinology,2024-07-24,2024-08-03,10,14348,Yes
+P1598,39,Male,Diabetes,Endocrinology,2023-09-13,2023-09-14,1,14110,No
+P1599,74,Female,Asthma,Pulmonology,2023-05-05,2023-05-07,2,9232,Yes
+P1600,19,Male,COVID-19,Infectious Disease,2024-04-12,2024-04-21,9,24803,No
+P1601,39,Male,Pneumonia,Pulmonology,2023-05-17,2023-05-25,8,15347,No
+P1602,67,Male,Asthma,Pulmonology,2024-04-20,2024-04-23,3,9105,No
+P1603,45,Male,Kidney Disease,Nephrology,2024-11-14,2024-11-22,8,26755,No
+P1604,13,Male,Pneumonia,Pulmonology,2024-06-27,2024-06-28,1,17947,No
+P1605,58,Female,Hypertension,Cardiology,2024-07-26,2024-08-05,10,14606,No
+P1606,20,Male,Migraine,Neurology,2024-09-01,2024-09-05,4,7417,Yes
+P1607,72,Male,Asthma,Pulmonology,2023-11-21,2023-11-24,3,13115,No
+P1608,61,Female,Flu,General Medicine,2024-03-29,2024-04-04,6,5774,Yes
+P1609,39,Male,Pneumonia,Pulmonology,2024-09-19,2024-09-26,7,20588,No
+P1610,1,Female,Kidney Disease,Nephrology,2024-05-31,2024-06-04,4,20943,No
+P1611,3,Female,Hypertension,Cardiology,2024-03-12,2024-03-19,7,11836,No
+P1612,77,Female,COVID-19,Infectious Disease,2024-07-15,2024-07-24,9,18616,No
+P1613,62,Male,Flu,General Medicine,2024-04-01,2024-04-12,11,4153,No
+P1614,63,Male,Pneumonia,Pulmonology,2023-06-12,2023-06-14,2,20178,No
+P1615,25,Male,Migraine,Neurology,2024-05-01,2024-05-12,11,6848,Yes
+P1616,56,Female,Flu,General Medicine,2024-04-05,2024-04-08,3,8540,Yes
+P1617,33,Male,Hypertension,Cardiology,2023-09-23,2023-09-28,5,13932,Yes
+P1618,38,Female,Flu,General Medicine,2023-09-11,2023-09-14,3,8524,No
+P1619,6,Male,Heart Disease,Cardiology,2024-10-14,2024-10-25,11,26255,No
+P1620,58,Female,Arthritis,Orthopedics,2023-10-11,2023-10-19,8,19928,No
+P1621,44,Male,COVID-19,Infectious Disease,2024-06-17,2024-06-27,10,24591,No
+P1622,45,Male,Hypertension,Cardiology,2024-05-11,2024-05-19,8,12565,No
+P1623,32,Male,Flu,General Medicine,2024-10-03,2024-10-11,8,5996,No
+P1624,45,Female,Arthritis,Orthopedics,2023-09-02,2023-09-11,9,13739,No
+P1625,61,Female,Arthritis,Orthopedics,2023-10-09,2023-10-13,4,19477,No
+P1626,47,Male,Flu,General Medicine,2024-03-26,2024-03-31,5,6232,No
+P1627,21,Male,Migraine,Neurology,2023-03-21,2023-03-26,5,5114,No
+P1628,80,Female,Heart Disease,Cardiology,2023-10-20,2023-10-28,8,25166,No
+P1629,85,Female,Asthma,Pulmonology,2023-08-29,2023-09-05,7,11395,Yes
+P1630,75,Female,Heart Disease,Cardiology,2023-10-06,2023-10-15,9,24012,No
+P1631,36,Male,Flu,General Medicine,2023-12-10,2023-12-18,8,6725,No
+P1632,19,Female,COVID-19,Infectious Disease,2023-11-24,2023-11-26,2,21019,No
+P1633,20,Male,Asthma,Pulmonology,2024-07-07,2024-07-17,10,12511,No
+P1634,57,Female,Hypertension,Cardiology,2023-03-24,2023-03-28,4,14135,Yes
+P1635,18,Male,Heart Disease,Cardiology,2023-05-22,2023-05-28,6,28507,No
+P1636,47,Female,Flu,General Medicine,2023-06-04,2023-06-06,2,5147,No
+P1637,49,Female,Heart Disease,Cardiology,2023-08-25,2023-09-01,7,27788,No
+P1638,14,Female,Asthma,Pulmonology,2024-01-28,2024-01-31,3,10121,No
+P1639,15,Female,Kidney Disease,Nephrology,2023-06-06,2023-06-09,3,26737,No
+P1640,31,Female,Pneumonia,Pulmonology,2023-08-08,2023-08-19,11,19230,No
+P1641,1,Male,Heart Disease,Cardiology,2023-03-07,2023-03-09,2,26043,No
+P1642,54,Female,Hypertension,Cardiology,2024-02-29,2024-03-11,11,8887,No
+P1643,3,Female,Hypertension,Cardiology,2024-02-22,2024-03-01,8,13528,Yes
+P1644,16,Female,Diabetes,Endocrinology,2023-12-05,2023-12-11,6,11915,No
+P1645,87,Male,Heart Disease,Cardiology,2024-07-09,2024-07-10,1,26862,No
+P1646,57,Female,Pneumonia,Pulmonology,2024-04-22,2024-04-23,1,14205,No
+P1647,75,Male,Migraine,Neurology,2024-03-01,2024-03-08,7,10075,No
+P1648,12,Female,Arthritis,Orthopedics,2023-03-05,2023-03-13,8,17599,No
+P1649,74,Female,Pneumonia,Pulmonology,2023-07-31,2023-08-05,5,16687,No
+P1650,16,Male,Arthritis,Orthopedics,2024-03-06,2024-03-17,11,17997,No
+P1651,72,Female,Arthritis,Orthopedics,2024-02-03,2024-02-08,5,14813,No
+P1652,76,Male,Kidney Disease,Nephrology,2024-08-21,2024-08-25,4,25305,No
+P1653,24,Male,Diabetes,Endocrinology,2023-01-21,2023-01-27,6,10517,No
+P1654,28,Female,Pneumonia,Pulmonology,2024-08-12,2024-08-18,6,19205,No
+P1655,8,Male,Pneumonia,Pulmonology,2024-01-25,2024-01-28,3,20749,No
+P1656,36,Female,Kidney Disease,Nephrology,2024-05-03,2024-05-12,9,23803,Yes
+P1657,8,Female,Heart Disease,Cardiology,2023-01-07,2023-01-18,11,28743,No
+P1658,58,Male,Heart Disease,Cardiology,2023-12-27,2024-01-03,7,25475,No
+P1659,60,Male,Heart Disease,Cardiology,2023-11-02,2023-11-03,1,28318,No
+P1660,50,Male,COVID-19,Infectious Disease,2024-02-04,2024-02-11,7,21344,No
+P1661,28,Male,Arthritis,Orthopedics,2024-03-05,2024-03-10,5,13955,No
+P1662,41,Female,COVID-19,Infectious Disease,2024-07-05,2024-07-10,5,19145,Yes
+P1663,64,Female,Diabetes,Endocrinology,2024-07-13,2024-07-15,2,10371,No
+P1664,27,Male,Kidney Disease,Nephrology,2024-09-09,2024-09-13,4,20304,Yes
+P1665,63,Female,Pneumonia,Pulmonology,2023-08-14,2023-08-20,6,16493,No
+P1666,17,Female,Arthritis,Orthopedics,2024-05-14,2024-05-24,10,17035,No
+P1667,73,Female,COVID-19,Infectious Disease,2023-08-13,2023-08-24,11,18951,No
+P1668,33,Female,COVID-19,Infectious Disease,2023-10-07,2023-10-14,7,18796,No
+P1669,84,Male,Flu,General Medicine,2024-03-22,2024-04-02,11,4923,No
+P1670,77,Male,COVID-19,Infectious Disease,2024-05-12,2024-05-17,5,22403,No
+P1671,29,Female,Migraine,Neurology,2023-01-30,2023-02-08,9,6111,Yes
+P1672,13,Male,Pneumonia,Pulmonology,2024-02-03,2024-02-06,3,17183,No
+P1673,46,Male,Migraine,Neurology,2023-12-11,2023-12-12,1,8716,No
+P1674,35,Male,Pneumonia,Pulmonology,2024-11-15,2024-11-19,4,17039,No
+P1675,6,Female,Kidney Disease,Nephrology,2024-11-26,2024-12-05,9,25492,No
+P1676,82,Female,Pneumonia,Pulmonology,2024-02-19,2024-02-23,4,20087,No
+P1677,69,Female,Migraine,Neurology,2023-06-19,2023-06-21,2,10705,No
+P1678,47,Male,Pneumonia,Pulmonology,2024-04-23,2024-05-03,10,18425,Yes
+P1679,25,Female,Kidney Disease,Nephrology,2023-05-11,2023-05-16,5,23433,No
+P1680,66,Female,Kidney Disease,Nephrology,2024-09-29,2024-10-02,3,24811,No
+P1681,10,Male,Diabetes,Endocrinology,2024-06-30,2024-07-09,9,16080,No
+P1682,56,Female,Pneumonia,Pulmonology,2023-01-28,2023-02-01,4,19952,No
+P1683,30,Female,Flu,General Medicine,2024-02-08,2024-02-14,6,4265,Yes
+P1684,5,Male,Heart Disease,Cardiology,2024-08-29,2024-08-31,2,26398,No
+P1685,33,Male,Hypertension,Cardiology,2024-07-31,2024-08-06,6,13365,No
+P1686,65,Male,Kidney Disease,Nephrology,2024-11-09,2024-11-12,3,20811,Yes
+P1687,18,Female,Asthma,Pulmonology,2023-01-28,2023-02-06,9,13829,No
+P1688,49,Female,Heart Disease,Cardiology,2023-03-27,2023-04-07,11,27008,No
+P1689,11,Female,Arthritis,Orthopedics,2024-10-20,2024-10-22,2,18043,No
+P1690,85,Male,Pneumonia,Pulmonology,2024-03-14,2024-03-23,9,17343,No
+P1691,26,Male,Migraine,Neurology,2023-05-19,2023-05-24,5,7291,No
+P1692,63,Female,Hypertension,Cardiology,2024-04-17,2024-04-25,8,8268,No
+P1693,89,Female,Asthma,Pulmonology,2023-07-06,2023-07-08,2,12654,No
+P1694,86,Male,Heart Disease,Cardiology,2023-02-21,2023-02-27,6,26035,No
+P1695,59,Male,Pneumonia,Pulmonology,2023-09-24,2023-09-27,3,15779,No
+P1696,27,Male,Diabetes,Endocrinology,2024-01-24,2024-02-03,10,13632,No
+P1697,49,Male,Arthritis,Orthopedics,2023-12-02,2023-12-07,5,16642,No
+P1698,77,Female,Hypertension,Cardiology,2023-08-05,2023-08-13,8,9934,Yes
+P1699,33,Male,Flu,General Medicine,2024-04-10,2024-04-20,10,5971,No
+P1700,1,Female,Diabetes,Endocrinology,2023-12-01,2023-12-02,1,10813,No
+P1701,21,Female,Asthma,Pulmonology,2023-12-12,2023-12-17,5,12617,No
+P1702,55,Female,Hypertension,Cardiology,2024-01-24,2024-01-27,3,11009,No
+P1703,6,Male,Diabetes,Endocrinology,2023-10-12,2023-10-16,4,14460,No
+P1704,81,Male,Arthritis,Orthopedics,2024-03-07,2024-03-09,2,18282,No
+P1705,69,Male,Flu,General Medicine,2023-09-16,2023-09-25,9,5938,Yes
+P1706,5,Male,Diabetes,Endocrinology,2023-03-25,2023-03-28,3,10496,No
+P1707,3,Female,COVID-19,Infectious Disease,2024-04-26,2024-04-28,2,21261,No
+P1708,53,Male,Flu,General Medicine,2023-01-20,2023-01-30,10,5260,No
+P1709,23,Male,Asthma,Pulmonology,2024-07-06,2024-07-17,11,8554,Yes
+P1710,53,Female,Arthritis,Orthopedics,2023-02-23,2023-03-04,9,14000,No
+P1711,37,Male,Pneumonia,Pulmonology,2023-12-25,2024-01-01,7,20947,No
+P1712,74,Female,Migraine,Neurology,2023-08-18,2023-08-24,6,11751,No
+P1713,74,Female,Migraine,Neurology,2024-10-27,2024-10-28,1,8725,No
+P1714,83,Female,Migraine,Neurology,2023-03-12,2023-03-17,5,5750,No
+P1715,17,Female,Hypertension,Cardiology,2024-10-29,2024-11-09,11,13429,No
+P1716,85,Female,Asthma,Pulmonology,2023-02-11,2023-02-22,11,8737,No
+P1717,78,Female,Arthritis,Orthopedics,2023-02-01,2023-02-04,3,18256,No
+P1718,73,Female,Flu,General Medicine,2023-09-11,2023-09-12,1,8238,Yes
+P1719,1,Female,Hypertension,Cardiology,2023-07-24,2023-07-28,4,12891,No
+P1720,51,Male,Asthma,Pulmonology,2023-01-21,2023-01-23,2,7174,No
+P1721,45,Male,Pneumonia,Pulmonology,2024-09-28,2024-09-30,2,14414,No
+P1722,77,Male,COVID-19,Infectious Disease,2023-06-06,2023-06-09,3,24445,Yes
+P1723,4,Male,Arthritis,Orthopedics,2023-09-02,2023-09-10,8,15732,No
+P1724,62,Female,Migraine,Neurology,2023-05-10,2023-05-18,8,6995,No
+P1725,65,Male,Diabetes,Endocrinology,2024-04-29,2024-05-06,7,11031,Yes
+P1726,32,Female,Arthritis,Orthopedics,2024-11-16,2024-11-22,6,19446,No
+P1727,34,Male,Kidney Disease,Nephrology,2023-04-28,2023-05-07,9,24625,Yes
+P1728,72,Male,Asthma,Pulmonology,2024-07-31,2024-08-04,4,8681,No
+P1729,39,Male,Heart Disease,Cardiology,2023-08-12,2023-08-13,1,23562,Yes
+P1730,26,Female,Pneumonia,Pulmonology,2024-04-21,2024-04-29,8,20797,Yes
+P1731,34,Male,COVID-19,Infectious Disease,2023-09-20,2023-09-27,7,24268,No
+P1732,54,Female,Pneumonia,Pulmonology,2024-01-13,2024-01-20,7,18540,No
+P1733,3,Female,Arthritis,Orthopedics,2023-06-21,2023-06-24,3,14697,Yes
+P1734,50,Male,Heart Disease,Cardiology,2024-09-12,2024-09-16,4,27803,Yes
+P1735,12,Male,Kidney Disease,Nephrology,2024-09-13,2024-09-23,10,21769,Yes
+P1736,65,Male,Flu,General Medicine,2023-04-28,2023-05-07,9,9660,No
+P1737,54,Female,Diabetes,Endocrinology,2023-06-17,2023-06-23,6,11908,No
+P1738,5,Male,Heart Disease,Cardiology,2023-11-15,2023-11-20,5,25691,Yes
+P1739,57,Female,Asthma,Pulmonology,2023-04-21,2023-04-24,3,13343,Yes
+P1740,17,Female,Migraine,Neurology,2024-08-15,2024-08-24,9,6208,No
+P1741,47,Male,Kidney Disease,Nephrology,2023-01-27,2023-02-01,5,26460,No
+P1742,23,Male,Diabetes,Endocrinology,2023-11-16,2023-11-21,5,14882,No
+P1743,79,Female,COVID-19,Infectious Disease,2024-08-12,2024-08-16,4,18023,No
+P1744,85,Female,Migraine,Neurology,2024-11-24,2024-11-28,4,7271,No
+P1745,14,Female,Arthritis,Orthopedics,2024-01-20,2024-01-21,1,14185,No
+P1746,66,Male,Heart Disease,Cardiology,2024-02-11,2024-02-18,7,24064,No
+P1747,75,Female,Diabetes,Endocrinology,2023-07-23,2023-08-01,9,14425,No
+P1748,51,Male,Hypertension,Cardiology,2023-03-19,2023-03-22,3,10053,No
+P1749,38,Female,Flu,General Medicine,2024-08-29,2024-08-31,2,9541,Yes
+P1750,64,Female,Flu,General Medicine,2024-10-04,2024-10-07,3,4429,No
+P1751,38,Male,Kidney Disease,Nephrology,2023-09-06,2023-09-07,1,20900,Yes
+P1752,50,Female,COVID-19,Infectious Disease,2023-04-15,2023-04-21,6,23415,No
+P1753,82,Male,Kidney Disease,Nephrology,2023-11-05,2023-11-16,11,20211,No
+P1754,30,Male,Hypertension,Cardiology,2024-12-01,2024-12-12,11,9079,No
+P1755,79,Female,Asthma,Pulmonology,2024-09-06,2024-09-13,7,7121,Yes
+P1756,51,Male,COVID-19,Infectious Disease,2023-05-04,2023-05-15,11,20934,No
+P1757,63,Male,Pneumonia,Pulmonology,2024-08-02,2024-08-13,11,20471,No
+P1758,52,Female,Asthma,Pulmonology,2023-02-12,2023-02-14,2,13458,No
+P1759,38,Male,COVID-19,Infectious Disease,2023-12-22,2023-12-30,8,19949,No
+P1760,88,Male,COVID-19,Infectious Disease,2024-06-29,2024-07-05,6,22823,No
+P1761,79,Male,Hypertension,Cardiology,2024-03-14,2024-03-18,4,10652,No
+P1762,30,Female,Arthritis,Orthopedics,2024-11-08,2024-11-13,5,13129,No
+P1763,51,Male,Hypertension,Cardiology,2024-01-15,2024-01-23,8,9427,No
+P1764,81,Female,COVID-19,Infectious Disease,2023-03-12,2023-03-15,3,20173,Yes
+P1765,5,Female,Diabetes,Endocrinology,2024-06-02,2024-06-05,3,10429,No
+P1766,29,Male,Asthma,Pulmonology,2024-10-25,2024-11-05,11,8038,No
+P1767,4,Male,Hypertension,Cardiology,2023-12-16,2023-12-20,4,14076,No
+P1768,10,Male,Arthritis,Orthopedics,2023-01-13,2023-01-14,1,16448,No
+P1769,56,Female,Heart Disease,Cardiology,2024-03-06,2024-03-15,9,27309,No
+P1770,17,Male,Kidney Disease,Nephrology,2024-05-16,2024-05-24,8,20931,No
+P1771,74,Male,COVID-19,Infectious Disease,2023-04-19,2023-04-27,8,24108,No
+P1772,17,Male,Pneumonia,Pulmonology,2024-03-19,2024-03-29,10,14520,No
+P1773,84,Male,Heart Disease,Cardiology,2024-01-06,2024-01-12,6,26901,No
+P1774,88,Male,Flu,General Medicine,2024-10-12,2024-10-19,7,6672,No
+P1775,69,Female,Migraine,Neurology,2024-04-15,2024-04-21,6,11373,No
+P1776,34,Female,Arthritis,Orthopedics,2023-06-06,2023-06-15,9,15965,Yes
+P1777,6,Male,Pneumonia,Pulmonology,2024-03-21,2024-03-24,3,18204,No
+P1778,53,Male,Migraine,Neurology,2023-06-30,2023-07-03,3,9863,No
+P1779,66,Male,Arthritis,Orthopedics,2024-06-18,2024-06-21,3,13893,No
+P1780,77,Male,Diabetes,Endocrinology,2024-10-28,2024-11-07,10,13702,No
+P1781,43,Female,Kidney Disease,Nephrology,2023-10-04,2023-10-07,3,24127,No
+P1782,75,Male,Heart Disease,Cardiology,2024-09-22,2024-10-01,9,24814,No
+P1783,23,Female,Asthma,Pulmonology,2024-07-05,2024-07-09,4,12038,Yes
+P1784,55,Female,Arthritis,Orthopedics,2024-05-10,2024-05-17,7,13355,No
+P1785,80,Male,Asthma,Pulmonology,2024-04-21,2024-04-30,9,12957,Yes
+P1786,75,Female,Kidney Disease,Nephrology,2024-03-22,2024-04-02,11,26416,No
+P1787,16,Female,COVID-19,Infectious Disease,2024-08-29,2024-09-05,7,23397,No
+P1788,8,Female,Flu,General Medicine,2023-10-02,2023-10-11,9,7271,No
+P1789,4,Female,Heart Disease,Cardiology,2023-11-27,2023-11-30,3,25470,No
+P1790,4,Male,Kidney Disease,Nephrology,2023-09-09,2023-09-13,4,23752,No
+P1791,56,Male,Kidney Disease,Nephrology,2023-03-30,2023-04-07,8,25270,No
+P1792,25,Female,Diabetes,Endocrinology,2023-10-13,2023-10-19,6,10255,No
+P1793,67,Male,Migraine,Neurology,2024-04-06,2024-04-11,5,5498,No
+P1794,67,Male,Flu,General Medicine,2023-09-07,2023-09-11,4,6923,No
+P1795,27,Male,Heart Disease,Cardiology,2024-04-20,2024-04-28,8,29941,Yes
+P1796,32,Male,COVID-19,Infectious Disease,2024-08-06,2024-08-07,1,21290,No
+P1797,50,Male,COVID-19,Infectious Disease,2024-09-16,2024-09-25,9,21492,No
+P1798,61,Female,Hypertension,Cardiology,2024-11-15,2024-11-16,1,13620,Yes
+P1799,51,Male,Kidney Disease,Nephrology,2024-01-24,2024-02-01,8,20884,No
